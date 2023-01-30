@@ -1,5 +1,7 @@
+import random
+
 print('age au hasard')
-for age in range(10) : print(randomrandint(1,100))
+for age in range(10) : print(random.randint(1,100))
 
 
 if age == 9 or age == 10:
